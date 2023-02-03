@@ -14,11 +14,14 @@ describe('SolarAge', () => {
     expect(age.jupiterAge).toBeCloseTo(415.1);
   });
 
-  // test('should determine how many years have passed on each planet since a past birthday.', () => {
-  //   const age = new SolarAge(35, 8.4, 21.7, 65.8, 415.1);
-  //   expect(age.yearsPassed).toEqual(50);
-  //   expect(age.yearsPassed).toEqual(8.4);
-  //   expect(age.yearsPassed).toEqual(21.7);
-  //   expect(age.yearsPassed).toEqual(65.8);
-  //   expect(age.yearsPassed).toBeCloseTo(415.1);
+  test('should determine how many years have passed on each planet since a past birthday.', () => {
+    const age = new SolarAge(35);
+    expect(age.yearsPassed()).toEqual(35);
+    expect(age.yearsPassed()).toEqual(50);
+    expect(age.yearsPassed()).toEqual(6.38);
+    expect(age.yearsPassed()).toEqual(1.01);
+    expect(age.yearsPassed()).toEqual(65.8);
+    expect(age.yearsPassed()).toEqual(415.1);
+  });
+
 });
