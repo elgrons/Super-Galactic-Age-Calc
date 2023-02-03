@@ -54,4 +54,8 @@ export default class SolarAge {
     const futureYears = this.ageUp - this.age;
     return futureYears / .62;
   }
+
+  marsYearsToPass(){
+    
+  }
 }

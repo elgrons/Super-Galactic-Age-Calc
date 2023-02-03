@@ -53,4 +53,9 @@ describe('SolarAge', () => {
     expect(age.venusYearsToPass()).toBeCloseTo(22.58);
   });
 
+  test('should correctly determine how many Mars years have yet to pass from when a user is a certain age until they are another age in the future', () => {
+    const age = new SolarAge(35, 23, 49);
+    expect(age.marsYearsToPass()).toBeCloseTo(7.44);
+  });
+
 });
