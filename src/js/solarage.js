@@ -1,7 +1,9 @@
 export default class SolarAge {
-  constructor(age, pastAge) {
-    this.age = age;
-    this.pastAge = pastAge;
+  constructor(mercAge, venusAge, marsAge, jupiterAge) {
+    this.mercAge = mercAge;
+    this.venusAge = venusAge;
+    this.marsAge = marsAge;
+    this.jupiterAge = jupiterAge;
   }
 
   mercuryAge() {
@@ -29,4 +31,7 @@ export default class SolarAge {
     return ageDifference / .24;
   }
   
+  //current age
+  //years past
+  //years yet to pass
 }
