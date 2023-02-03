@@ -8,8 +8,10 @@ export default class SolarAge {
   }
 
   
-  
-  //current age
-  //years past
+  // yearsPassed() {
+
+  // }
+
+
   //years yet to pass
 }
