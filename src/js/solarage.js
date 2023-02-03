@@ -1,7 +1,8 @@
 export default class SolarAge {
-  constructor(age, pastAge) {
+  constructor(age, pastAge, ageUp) {
     this.age = age;
     this.pastAge = pastAge;
+    this.ageUp = ageUp;
   }
 
   mercuryAge() {
@@ -43,4 +44,10 @@ export default class SolarAge {
     const ageDifference = this.age - this.pastAge;
     return ageDifference / 11.86;
   }
+
+  mercuryYearsToPass() {
+    
+  }
+
+
 }
