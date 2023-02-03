@@ -8,6 +8,10 @@ export default class SolarAge {
     return this.age;
   }
 
+  venusAge() {
+    
+  }
+
   // pastBirthday() {
 
   // }
