@@ -10,10 +10,12 @@ export default class SolarAge {
 
   
   yearsPassedMerc() {
-
-  
-
+    const deductYears = this.earthAge - this.pastGalacticAge;
+    let thisTime = deductYears / .24;
+    return +thisTime.toFixed(2);
   }
+
+
 
 
   //years yet to pass
