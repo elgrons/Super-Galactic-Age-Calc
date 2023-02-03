@@ -8,7 +8,8 @@ export default class SolarAge {
   }
 
   
-  yearsPassed() {
+  yearsPassedMerc() {
+    
 
   }
 
