@@ -16,7 +16,9 @@ export default class SolarAge {
   }
 
   yearsPassedVenus() {
-    
+    const deductYears = this.earthAge - this.pastGalacticAge;
+    let thisTime = deductYears / .62;
+    return +thisTime.toFixed(2);
   }
 
 
