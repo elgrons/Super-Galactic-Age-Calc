@@ -1,6 +1,7 @@
 export default class SolarAge {
-  constructor(earthAge) {
+  constructor(earthAge, pastGalacticAge) {
     this.earthAge = earthAge;
+    this.pastGalacticAge = pastGalacticAge;
     this.mercAge = this.earthAge * .24;
     this.venusAge = this.earthAge * .62;
     this.marsAge = this.earthAge * 1.88;
@@ -9,7 +10,8 @@ export default class SolarAge {
 
   
   yearsPassedMerc() {
-    
+
+  
 
   }
 
