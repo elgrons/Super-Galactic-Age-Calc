@@ -8,36 +8,13 @@ export default class SolarAge {
   }
 
   currentAge() {
-    // this.mercAge = this.earthAge * .24;
-    // this.venusAge = this.earthAge * .62;
-    // this.marsAge = this.earthAge * 1.88;
-    // this.jupiterAge = this.earthAge * 11.86;
+    let year = this.earthAge;
+    this.mercAge = year * .24;
+    this.venusAge = year * .62;
+    this.marsAge = year * 1.88;
+    this.jupiterAge = year * 11.86;
+    return ;
   }
-
-  // mercuryAge() {
-  //   this.age = this.age * .24;
-  //   return this.age;
-  // }
-
-  // venusAge() {
-  //   this.age = this.age * .62;
-  //   return this.age;
-  // }
-
-  // marsAge() {
-  //   this.age = this.age * 1.88;
-  //   return this.age;
-  // }
-
-  // jupiterAge() {
-  //   this.age = this.age * 11.86;
-  //   return this.age;
-  // }
-
-  // yearsPastMercury() {
-  //   const ageDifference = this.age - this.pastAge;
-  //   return ageDifference / .24;
-  // }
   
   //current age
   //years past

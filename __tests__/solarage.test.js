@@ -3,7 +3,7 @@ import SolarAge from '../src/js/solarage.js';
 
 describe('SolarAge', () => {
 
-  test('should return the user age in Mercury, Venus, Mars, and Jupiter length years', () => {
+  test('should return a users age converted to Mercury, Venus, Mars, and Jupiter length years', () => {
     const age = new SolarAge(35, 8.4, 21.7, 65.8, 415.1);
     expect(age.currentAge()).toEqual(35);
     expect(age.currentAge()).toEqual(8.4);
