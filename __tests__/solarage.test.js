@@ -13,4 +13,9 @@ describe('SolarAge', () => {
     expect(age.venusAge()).toEqual(21.7);
   });
 
+  test('should return their age in Mars years', () => {
+    const age = new SolarAge(35);
+    expect(age.marsAge()).toEqual(65.8);
+  });
+
 });
