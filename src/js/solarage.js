@@ -46,7 +46,8 @@ export default class SolarAge {
   }
 
   mercuryYearsToPass() {
-    
+    const futureYears = this.ageUp - this.age;
+    return futureYears / .24;
   }
 
 
