@@ -33,4 +33,8 @@ export default class SolarAge {
     const ageDifference = this.age - this.pastAge;
     return ageDifference / .62;
   }
+
+  yearsPastMars() {
+  
+  }
 }
