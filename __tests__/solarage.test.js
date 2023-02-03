@@ -40,7 +40,7 @@ describe('SolarAge', () => {
 
   test('should correctly determine how many Jupiter years have past since their 23rd (aka Michael Jordan) birthday', () => {
     const age = new SolarAge(35, 23);
-    expect(age.yearsPastJupiter()).toBeCloseTo(1);
+    expect(age.yearsPastJupiter()).toBeCloseTo(1.01);
   });
 
 });

@@ -40,6 +40,7 @@ export default class SolarAge {
   }
 
   yearsPastJupiter() {
-    
+    const ageDifference = this.age - this.pastAge;
+    return ageDifference / 11.86;
   }
 }
