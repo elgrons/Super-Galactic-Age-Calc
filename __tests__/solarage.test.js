@@ -3,29 +3,13 @@ import SolarAge from '../src/js/solarage.js';
 
 describe('SolarAge', () => {
 
-  test('should return their age in Mercury years', () => {
-    const age = new SolarAge(35);
-    expect(age.mercuryAge()).toEqual(8.4);
-  });
-
-  test('should return their age in Venus years', () => {
-    const age = new SolarAge(35);
-    expect(age.venusAge()).toEqual(21.7);
-  });
-
-  test('should return their age in Mars years', () => {
-    const age = new SolarAge(35);
-    expect(age.marsAge()).toEqual(65.8);
-  });
-
-  test('should return their age in Jupiter years', () => {
-    const age = new SolarAge(35);
-    expect(age.jupiterAge()).toBeCloseTo(415.1);
-  });
-
-  test('should correctly determine how many Mercury years have past since their 23rd (aka Michael Jordan) birthday', () => {
-    const age = new SolarAge(35, 23);
-    expect(age.yearsPastMercury()).toEqual(50);
+  test('should return the user age in Mercury, Venus, Mars, and Jupiter length years', () => {
+    const age = new SolarAge(35, 8.4, 21.7, 65.8, 415.1);
+    expect(age.currentAge()).toEqual(35);
+    expect(age.currentAge()).toEqual(8.4);
+    expect(age.currentAge()).toEqual(21.7);
+    expect(age.currentAge).toEqual(65.8);
+    expect(age.currentAge()).toBeCloseTo(415.1);
   });
 
 });
