@@ -23,4 +23,9 @@ describe('SolarAge', () => {
     expect(age.jupiterAge()).toBeCloseTo(415.1);
   });
 
+  test('should correctly determine how many Mercury years have past since their 23rd (aka Michael Jordan) birthday', () => {
+    const age = new SolarAge(35, 23);
+    expect(age.yearsPastMercury()).toEqual(50);
+  });
+
 });
