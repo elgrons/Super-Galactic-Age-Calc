@@ -58,4 +58,9 @@ describe('SolarAge', () => {
     expect(age.marsYearsToPass()).toBeCloseTo(7.446);
   });
 
+  test('should correctly determine how many Jupiter years have yet to pass from when a user is a certain age until they are another age in the future', () => {
+    const age = new SolarAge(35, 23, 49);
+    expect(age.jupiterYearsToPass()).toBeCloseTo(1.18);
+  });
+
 });

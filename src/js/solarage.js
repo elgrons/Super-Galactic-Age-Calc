@@ -59,4 +59,9 @@ export default class SolarAge {
     const futureYears = this.ageUp - this.age;
     return futureYears / 1.88;
   }
+  
+  jupiterYearsToPass(){
+    
+  }
+
 }
