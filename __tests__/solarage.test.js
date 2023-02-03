@@ -20,7 +20,7 @@ describe('SolarAge', () => {
 
   test('should return their age in Jupiter years', () => {
     const age = new SolarAge(35);
-    expect(age.jupiterAge()).toEqual(415.1);
+    expect(age.jupiterAge()).toBeCloseTo(415.1);
   });
 
 });

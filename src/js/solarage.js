@@ -19,7 +19,8 @@ export default class SolarAge {
   }
 
   jupiterAge() {
-    
+    this.age = this.age * 11.86;
+    return this.age;
   }
 
   // pastBirthday() {
