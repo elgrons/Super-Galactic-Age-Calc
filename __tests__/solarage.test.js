@@ -28,4 +28,9 @@ describe('SolarAge', () => {
     expect(age.yearsPastMercury()).toEqual(50);
   });
 
+  test('should correctly determine how many Venus years have past since their 23rd (aka Michael Jordan) birthday', () => {
+    const age = new SolarAge(35, 23);
+    expect(age.yearsPastVenus()).toEqual(19.35);
+  });
+
 });

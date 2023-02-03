@@ -29,4 +29,7 @@ export default class SolarAge {
     return ageDifference / .24;
   }
   
+  yearsPastVenus() {
+  
+  }
 }
