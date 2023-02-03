@@ -4,8 +4,8 @@ export default class SolarAge {
   }
 
   mercuryAge() {
-    
-
+    this.age = this.age * .24;
+    return this.age;
   }
 
   // pastBirthday() {
