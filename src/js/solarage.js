@@ -7,6 +7,9 @@ export default class SolarAge {
     this.jupiterAge = jupiterAge;
   }
 
+  
+  
+  //current age
   //years past
   //years yet to pass
 }
