@@ -50,5 +50,7 @@ export default class SolarAge {
     return futureYears / .24;
   }
 
-
+  venusYearsToPass() {
+    
+  }
 }
