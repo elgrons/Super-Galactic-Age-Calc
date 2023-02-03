@@ -1,5 +1,6 @@
 export default class SolarAge {
-  constructor( mercAge, venusAge, marsAge, jupiterAge) {
+  constructor(earthAge, mercAge, venusAge, marsAge, jupiterAge) {
+    this.earthAge = earthAge;
     this.mercAge = mercAge;
     this.venusAge = venusAge;
     this.marsAge = marsAge;
