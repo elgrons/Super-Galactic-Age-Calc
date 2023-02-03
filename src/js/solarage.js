@@ -18,6 +18,10 @@ export default class SolarAge {
     return this.age;
   }
 
+  jupiterAge() {
+    
+  }
+
   // pastBirthday() {
 
   // }
