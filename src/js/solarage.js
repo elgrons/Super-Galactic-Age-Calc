@@ -14,7 +14,8 @@ export default class SolarAge {
   }
 
   marsAge() {
-  
+    this.age = this.age * 1.88;
+    return this.age;
   }
 
   // pastBirthday() {
