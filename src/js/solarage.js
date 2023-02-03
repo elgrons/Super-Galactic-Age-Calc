@@ -30,6 +30,7 @@ export default class SolarAge {
   }
   
   yearsPastVenus() {
-  
+    const ageDifference = this.age - this.pastAge;
+    return ageDifference / .62;
   }
 }
