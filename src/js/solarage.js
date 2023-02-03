@@ -21,6 +21,10 @@ export default class SolarAge {
     return +thisTime.toFixed(2);
   }
 
+  yearsPassedMars() {
+    
+  }
+
 
 
 

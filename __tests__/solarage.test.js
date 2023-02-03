@@ -22,4 +22,9 @@ describe('SolarAge', () => {
     expect(age.yearsPassedVenus()).toEqual(41.94);
   });
 
+  test('should determine how many years have passed on Mars since a past birthday.', () => {
+    const age = new SolarAge(35, 9);
+    expect(age.yearsPassedMars()).toEqual(13.83);
+  });
+
 });
