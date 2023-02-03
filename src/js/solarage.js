@@ -25,7 +25,8 @@ export default class SolarAge {
   }
 
   yearsPastMercury() {
-
+    const ageDifference = this.age - this.pastAge;
+    return ageDifference / .24;
   }
 
   // pastBirthday() {
