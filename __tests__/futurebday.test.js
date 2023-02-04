@@ -10,6 +10,7 @@ describe('FutureBday', () => {
     expect(bday.mercTime).toEqual(225);
     expect(bday.venusTime).toEqual(87);
     expect(bday.marsTime).toEqual(29);
+    expect(bday.jupiterTime).toEqual(5);
   });
 
 });
