@@ -7,10 +7,11 @@
 ## Technologies Used
 
 * 💫 Javascript
-* 💫 Github
+* 💫 Jest
 * 💫 Webpack
 * 💫 Lint
 * 💫 NPM
+* 💫 Github
 
 ## Description
 
