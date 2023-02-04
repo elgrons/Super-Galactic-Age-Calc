@@ -8,7 +8,6 @@ export default class SolarAge {
     this.jupiterAge = this.earthAge * 11.86;
   }
 
-  
   yearsPassedMerc() {
     const deductYears = this.earthAge - this.pastGalacticAge;
     let thisTime = deductYears / .24;
@@ -37,10 +36,4 @@ export default class SolarAge {
     let thisTime = deductYears / 11.86;
     return +thisTime.toFixed(2);
   }
-
-
-
-
-
-  //years yet to pass
 }
