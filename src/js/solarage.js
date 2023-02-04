@@ -21,6 +21,10 @@ export default class SolarAge {
     return +thisTime.toFixed(2);
   }
 
+  yearsPassedEarth() {
+
+  }
+
   yearsPassedMars() {
     const deductYears = this.earthAge - this.pastGalacticAge;
     let thisTime = deductYears / 1.88;
@@ -32,6 +36,8 @@ export default class SolarAge {
     let thisTime = deductYears / 11.86;
     return +thisTime.toFixed(2);
   }
+
+
 
 
 
