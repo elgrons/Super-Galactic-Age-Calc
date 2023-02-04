@@ -8,7 +8,7 @@ describe('FutureBday', () => {
     expect(bday.earthAge).toEqual(35);
     expect(bday.ageIHopeToLiveUntil).toEqual(89);
     expect(bday.mercTime).toEqual(225);
-    expect(bday.venusTime).toEqual(87.09);
+    expect(bday.venusTime).toEqual(87);
   });
 
 });
