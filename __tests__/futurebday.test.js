@@ -7,6 +7,7 @@ describe('FutureBday', () => {
     const bday = new FutureBday(35, 89);
     expect(bday.earthAge).toEqual(35);
     expect(bday.ageIHopeToLiveUntil).toEqual(89);
+    expect(bday.mercTime).toEqual(225);
   });
 
 });
