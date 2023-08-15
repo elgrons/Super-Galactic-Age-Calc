@@ -44,21 +44,21 @@ function handleAgeForm(event) {
   const pTagFuture = document.createElement("p");
 
   const currentAgeResults = 
-  `If your current age is ${currentAgeForm} then:<br>
+  `<span style="color:#63BAD0;">If your current age is ${currentAgeForm} then:</span><br>
   Your current solar age on Mercury is ${mercAge}.<br>
   Your current solar age on Venus is ${venusAge}.<br>
   Your current solar age on Mars is ${marsAge}.<br>
   Your current solar age on Jupiter is ${jupiterAge}.<br>`;
 
   const pastAgeResults = 
-  `If your past age is ${pastAgeForm} then:<br>
+  `<span style="color:#527F7F;">If your past age is ${pastAgeForm} then:</span><br>
   The amount of years that have passed on Mercury is ${pastMercAge}.<br>
   The amount of years that have passed on Venus is ${pastVenusAge}.<br>
   The amount of years that have passed on Mars is ${pastMarsAge}.<br>
   The amount of years that have passed on Jupiter is ${pastJupiterAge}.<br>`;
 
   const futureAgeResults = 
-  `If your future age is ${futureAgeForm} then:<br>
+  `<span style="color:#6197A3;">If your future age is ${futureAgeForm} then:</span><br>
   The amount of years that have yet to pass on Mercury is ${futureMercAge}.<br>
   The amount of years that have yet to pass on Venus is ${futureVenusAge}.<br>
   The amount of years that have yet to pass on Mars is ${futureMarsAge}.<br>

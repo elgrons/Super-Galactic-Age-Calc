@@ -4,6 +4,8 @@
 
 #### By Eliot Gronstal 2.3.23 🌞
 
+![Age Calc](AgeCalc.png)
+
 ## Technologies Used
 
 * 💫 JavaScript (ES6)
