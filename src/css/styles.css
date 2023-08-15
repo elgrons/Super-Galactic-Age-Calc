@@ -1,15 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 .hidden {
   display: none;
 }
 
 body {
   background-image: url(../assets/images/CrescentEarth.png);
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   color: #fff;
+  font-family: Roboto Mono;
+  font-size: 18px;
   text-align: center;
   padding: 22%;
-  margin: auto;
+  margin: 0 auto;
+  display: flex;
+  height: 100vh;
+}
 
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#age-calc-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
