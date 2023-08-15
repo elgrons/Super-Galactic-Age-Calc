@@ -6,7 +6,7 @@
 
 ## Technologies Used
 
-* 💫 Javascript
+* 💫 JavaScript (ES6)
 * 💫 Jest
 * 💫 Webpack
 * 💫 Lint
@@ -26,10 +26,14 @@ Independent Project for Week 5 of Epicodus Coding School featuring the Red, Gree
 ## Known Bugs
 
 * 💫 No known bugs
-* 💫 There are more planets that can be added!
-* 💫 WIP to add UI logic
 
-* 💫 Please contact Eliot with any questions or concerns at: eliot.lauren@gmail.com
+* 💫 There are more planets that can be added (or removed: thinking of you, Pluto).
+
+* 💫 Please reach out with any questions or concerns at: [eliot.lauren@gmail.com](eliot.lauren@gmail.com)
+
+## Image Credit
+
+* [Apollo 17, NASA; Restoration - Toby Ord](https://apod.nasa.gov/apod/ap230513.html)
 
 ## License
 
