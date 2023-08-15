@@ -1,7 +1,22 @@
 <html lang="en-US">
 <head>
+  🪐Super Galactic Age Calculator🪐
 </head>
 <body>
-  <div>🪐Super Galactic Age Calculator🪐</div>
-</body>
+    <h3>Enter your current age, a past age, and future age to find out how "old" you are based on different planets solar years.</h3>
+    <form id="age-calc-form" class="formAge">
+      <label for="currentAge">Your Current Age</label>
+      <input id="currentAge" type="number" placeholder="0" min="0" value="0" name="currentAge">
+      <label for="pastAge">A Past Age</label>
+      <input id="pastAge" type="number" placeholder="0" min="0" value="0" name="pastAge">
+      <label for="futureAge">A Future Age</label>
+      <input id="futureAge" type="number" placeholder="0" min="0" value="0" name="futureAge">
+      <button type="submit">Show me the numbers!</button>
+    </form>
+  
+    <div id="current-age-result"></div>
+    <div id="past-age-result"></div>
+    <div id="future-age-result"></div>
+
+  </body>
 </html>
