@@ -10,10 +10,10 @@
 
 * 💫 JavaScript (ES6)
 * 💫 Jest
-* 💫 Webpack
-* 💫 Lint
-* 💫 NPM
-* 💫 Github
+* 💫 ESLint
+* 💫 Node
+* 💫 GitHub
+* 💫 VS Code
 
 ## Description
 
@@ -22,7 +22,10 @@ Independent Project for Week 5 of Epicodus Coding School featuring the Red, Gree
 ## Setup/Installation Requirements
 
 * 💫 Clone the repo down to your desktop.
-* 💫 Open the project and review the functions for adjusting a birthdate to different solar years
+* 💫 Open the project in your code editor of choice and review the functions for adjusting a birthdate to different solar years.
+* 💫 Open the project and review the functions for adjusting a birthdate to different solar years.
+* 💫 Run `npm install` to install dependencies.
+* 💫 Enter the command `npm run start` into the terminal to run the project locally at `http://localhost:8080/`.
 * 💫 FYI for non-Mac users: in the package.json "scripts" for lint: line 9's has an extra " ' " surrounding src:... which allows es lint to access files recursively  "lint": "'eslint src/*.js'",
 
 ## Known Bugs
