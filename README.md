@@ -34,7 +34,7 @@ Independent Project for Week 5 of Epicodus Coding School featuring the Red, Gree
 
 * 💫 No known bugs
 
-* 💫 There are more planets that can be added (or removed: thinking of you, Pluto).
+* 💫 There are more planets that can be added (and hopefully not removed: thinking of you, Pluto).
 
 * 💫 Please reach out with any questions or concerns at: [eliot.lauren@gmail.com](eliot.lauren@gmail.com)
 
