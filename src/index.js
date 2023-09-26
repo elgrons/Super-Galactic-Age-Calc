@@ -39,9 +39,9 @@ function handleAgeForm(event) {
   let pastAgeResultsDiv = document.getElementById("past-age-result");
   let futureAgeResultsDiv = document.getElementById("future-age-result");
 
-  currentAgeResultsDiv.innerHTML = "";
-  pastAgeResultsDiv.innerHTML = "";
-  futureAgeResultsDiv.innerHTML = "";
+  currentAgeResultsDiv.innerHTML = null;
+  pastAgeResultsDiv.innerHTML = null;
+  futureAgeResultsDiv.innerHTML = null;
 
   const pTagCurrent = document.createElement("p");
   const pTagPast = document.createElement("p");
